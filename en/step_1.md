@@ -1,76 +1,60 @@
-# New project
-
-Each project contains a set of directories for each language, you're set up now with an `en` directory that contains the necessary files to get you going.
-
-* [meta.yml](#metayml)
-* [Steps - step_1.md, step_2.md, etc](#steps)
+## Registering an App with the Twitter API
 
 
-## meta.yml
+To use the Twitter API with any programming language you'll need to complete a few simple steps:
 
-The `meta.yml` file sets lots of basic information for the project.
+*[API]: Application Programming Interface
 
-``` yml
-title: The title of the project
-hero_image: images/banner.png # The image used on the listing view
-subtitle: Project subtitle # Used on the listing view
-description: Project description # Used on the listing view
-published: false # A boolean - `true` or`false` - that controls whether the project will appear on the listing view
-steps: # A list of all the steps
-  - title: How to get started # Used as the sidebar title for the step
-    duration: 60 # Not used yet
-```
+  1. Register for a Twitter account (if you don't already have one to use)
+  2. Create a Twitter Application
+  3. Copy your credentials
+  
+### Register for a Twitter account
 
-## Steps
+1. Create a Twitter account at [twitter.com](https://twitter.com). If you are under 13, then you will need a responsible adult to set up the account for you.
 
-* [Links](#links)
-* [Resources](#resources)
-* [Images](#images)
-* [Definitions](#definitions)
-* [Hints](#hints)
+    ![Create Twitter account](images/signup.png)
 
-Project steps are written in the [Kramdown](https://kramdown.gettalong.org/) variety of markdown. There is a [quick reference guide](https://kramdown.gettalong.org/quickref.html) and [full syntax documentation](https://kramdown.gettalong.org/syntax.html).
+1. You'll need to provide a phone number or email address to register an account, and only one account is allowed per email address.
 
-### Links, resources & images
+1. You might also want to upload a photo and fill out the bio, but make sure you are being safe and not uploading personally identifiable information.
 
-See [kramdown documentation](https://kramdown.gettalong.org/quickref.html#links-and-images) for more details.
+### Create a Twitter Application
 
-#### Links
+Next you need to create a new Twitter application. This will allow you to authenticate the program you are about to write.
 
-A [link](http://kramdown.gettalong.org) to the kramdown homepage.
+1. Go to [apps.twitter.com](https://apps.twitter.com) and then click the **Create New App** button.
 
-#### Resources
+	![Create New App](images/new-app.png)
+	
+1. You'll need to fill in a few details about your app. Don't worry about the **Website**, you can place any URL here for now, if you don't own your own domain. The Callback URL can be left blank. Click on the **Create Application** button when you are done.
 
-A [link to a file in the resources directory](resources/worksheet.pdf){:download='filename.pdf'}. The download part will make the file automatically download rather than be rendered in the browser, the filename you'd like the file to be saved with is the second bit after the `=`. The `/slash learning` application will ensure the resource is available.
+	![App Details](images/app-details.png)
+	
+1. You'll now have an App that you can use to access the API. Clicking on the **Keys and Access Tokens** tab will reveal you authentication details for Twitter.
 
-#### Images
+	![Authentication](images/auth.png)
+	
+1. Next you'll need to generate your **access tokens** by clicking on the **Create my access token** button at the bottom of the screen.
 
-![Banner image](images/banner.png) - the link text becomes the alternative text for the image. The `/slash learning` application will ensure the image is available.
+	![Authentication2](images/auth2.png)
+	
+1. All these keys, tokens and secrets need to be kept secure. If you accidentally share them with someone, then you can regenerate them to get new random strings of characters.
 
-### Definitions
+### Copy your credentials
 
-Definitions can be written using HTML abbreviations, which are a standard part of [kramdown](https://kramdown.gettalong.org/quickref.html#abbreviations)
+1. The best way to store your credentials is to keep them on your computer in json format.
 
-```
-To do this you might require a variable or a two word definition.
+*[json]: A lightweight format to exchange data between computers.
 
-*[variable]: An object that has a name and stores a value.
+1. Open a text editor such as LeafPad, TextEdit or Notepad. Create a new file and then add in your credentials in the following format.
 
-*[two word]: Definitions are markdown, and can have [links](http://kramdown.gettalong.org) etc
-```
+~~~json
+{
+    "Consumer_Key": "I40wL40inrt43Z71eeoir1662",
+    "Consumer_Secret": "ZwLwMeTuWIjA9v1aRJeJUxrSoBYbNxzrteSxiPl59mdbU7mS0b",
+    "Access_Token": "1841344074-R5b20nSAYEwYUxyfw87MWCGeHPwe5WREbPIyDjg"
+    "Access_Token_Secret": "p4lRvFlaI5vGCjSCqvF1jCeTwx3BAAScJWutsQy8a2ZOFP"
+}
 
-
-### Hints
-
-Still very much a work in progress, but here's how you could get one to work currently. The id `#hint-1` on the heading and the class `.hint-1` on the body must match up.
-
-```
-### Hint
-{: .hint-heading #hint-1 }
-
-Here's a hint of how to do this project. Just a change to force an update.
-{: .hint-content .hint-1 }
-
-And a little more text for the first hint.
-{: .hint-content .hint-1 }
-```
+1. Save the file as `twitter_auth.json'
