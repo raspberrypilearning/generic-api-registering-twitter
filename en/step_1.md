@@ -1,4 +1,4 @@
-## Registering an App with the Twitter API
+### Registering an App with the Twitter API
 
 
 To use the Twitter API with any programming language you'll need to complete a few simple steps:
@@ -9,7 +9,7 @@ To use the Twitter API with any programming language you'll need to complete a f
   2. Create a Twitter Application
   3. Copy your credentials
   
-### Register for a Twitter account
+#### Register for a Twitter account
 
 1. Create a Twitter account at [twitter.com](https://twitter.com). If you are under 13, then you will need a responsible adult to set up the account for you.
 
@@ -19,7 +19,7 @@ To use the Twitter API with any programming language you'll need to complete a f
 
 1. You might also want to upload a photo and fill out the bio, but make sure you are being safe and not uploading personally identifiable information.
 
-### Create a Twitter Application
+#### Create a Twitter Application
 
 Next you need to create a new Twitter application. This will allow you to authenticate the program you are about to write.
 
@@ -41,7 +41,7 @@ Next you need to create a new Twitter application. This will allow you to authen
 	
 1. All these keys, tokens and secrets need to be kept secure. If you accidentally share them with someone, then you can regenerate them to get new random strings of characters.
 
-### Copy your credentials
+#### Copy your credentials
 
 1. The best way to store your credentials is to keep them on your computer in json format.
 
