@@ -1,4 +1,4 @@
-title: registering-twitter-api
+title: Registering to use the Twitter API
 hero_image: images/banner.png
 subtitle: registering-twitter-api subtitle
 description: registering-twitter-api description
@@ -6,5 +6,5 @@ original_url: https://codeclubprojects.org/en-GB/scratch/rock-band
 theme: cc-prototype
 published: false
 steps:
-  - title: Step one
-    duration: 60
+  - title: Register a Twitter app
+
