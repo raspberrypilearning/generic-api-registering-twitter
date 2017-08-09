@@ -3,12 +3,14 @@ To use the Twitter API with any programming language, you'll need to complete a 
 *[API]: Application Programming Interface
 
   - Register a Twitter account (if you don't already have one to use)
-  - Create a Twitter Application
+  - Create a Twitter application
   - Copy your credentials
   
 ### Register for a Twitter account
 
-- Create a Twitter account at [twitter.com](https://twitter.com). If you are under 13, then you will have to use an account set up by a parent or guardian using their name and information.
+- **Note:** If you are underage, check with your parents to be sure that they are okay with you having a Twitter account. If you are under 13, then you will have to ask a parent or guardian to set up an account for you using their name and information.
+
+- Create a Twitter account at [twitter.com](https://twitter.com).
 
     ![Create Twitter account](images/signup.png)
 
@@ -16,7 +18,7 @@ To use the Twitter API with any programming language, you'll need to complete a 
 
 - You might want to upload a photo and fill out the account's bio section, but make sure you are being safe and not uploading personally identifiable information.
 
-### Create a Twitter Application
+### Create a Twitter application
 
 Next you need to create a new Twitter application. This will allow you to authenticate the program you are about to write.
 
