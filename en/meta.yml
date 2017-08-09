@@ -6,7 +6,7 @@ theme: cc-prototype
 duration: 1
 ingredient: true
 listed: true
-copyedit: false
+copyedit: true
 interests:
 technologies: "twitter"
 steps:
