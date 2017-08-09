@@ -1,20 +1,20 @@
-To use the Twitter API with any programming language you'll need to complete a few simple steps:
+To use the Twitter API with any programming language, you'll need to complete a few simple steps:
 
 *[API]: Application Programming Interface
 
-  - Register for a Twitter account (if you don't already have one to use)
+  - Register a Twitter account (if you don't already have one to use)
   - Create a Twitter Application
   - Copy your credentials
   
 ### Register for a Twitter account
 
-- Create a Twitter account at [twitter.com](https://twitter.com). If you are under 13, then you will need a responsible adult to set up the account for you.
+- Create a Twitter account at [twitter.com](https://twitter.com). If you are under 13, then you will have to use an account set up by a parent or guardian using their name and information.
 
     ![Create Twitter account](images/signup.png)
 
 - You'll need to provide a phone number or email address to register an account, and only one account is allowed per email address.
 
-- You might also want to upload a photo and fill out the bio, but make sure you are being safe and not uploading personally identifiable information.
+- You might want to upload a photo and fill out the account's bio section, but make sure you are being safe and not uploading personally identifiable information.
 
 ### Create a Twitter Application
 
@@ -24,11 +24,11 @@ Next you need to create a new Twitter application. This will allow you to authen
 
 	![Create New App](images/new-app.png)
 	
-- You'll need to fill in a few details about your app. Don't worry about the **Website**, you can place any URL here for now, if you don't own your own domain. The Callback URL can be left blank. Click on the **Create Application** button when you are done.
+- You'll need to fill in a few details about your app. Don't worry about the 'Website' field, you can place any URL here for now if you don't own your own domain. The 'Callback URL' can be left blank. Click on the **Create Application** button when you are done.
 
 	![App Details](images/app-details.png)
 	
-- You'll now have an App that you can use to access the API. Clicking on the **Keys and Access Tokens** tab will reveal you authentication details for Twitter.
+- You'll now have an app that you can use to access the API. Clicking on the **Keys and Access Tokens** tab will reveal your authentication details for Twitter.
 
 	![Authentication](images/auth.png)
 	
@@ -36,7 +36,7 @@ Next you need to create a new Twitter application. This will allow you to authen
 
 	![Authentication2](images/auth2.png)
 	
-- All these keys, tokens and secrets need to be kept secure. If you accidentally share them with someone, then you can regenerate them to get new random strings of characters.
+- All these keys, tokens, and secrets need to be kept secure. If you accidentally share them with someone, then you can regenerate them to get new random strings of characters.
 
 ### Copy your credentials
 
@@ -44,7 +44,7 @@ Next you need to create a new Twitter application. This will allow you to authen
 
 *[json]: A lightweight format to exchange data between computers.
 
-- Open a text editor such as LeafPad, TextEdit or Notepad. Create a new file and then add in your credentials in the following format.
+- Open a text editor such as LeafPad, TextEdit, or Notepad. Create a new file and then add in your credentials in the following format.
 
 ~~~json
 {
@@ -54,4 +54,4 @@ Next you need to create a new Twitter application. This will allow you to authen
     "access_token_secret": "p4lRvFlaI5vGCjSCqvF1jCeTwx3BAAScJWutsQy8a2ZOFP"
 }
 
-- Save the file as `twitter_auth.json'
+- Save the file as `twitter_auth.json`.
