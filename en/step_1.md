@@ -48,12 +48,12 @@ Next you need to create a new Twitter application. This will allow you to authen
 
 - Open a text editor such as LeafPad, TextEdit, or Notepad. Create a new file and then add in your credentials in the following format.
 
-~~~json
+```json
 {
     "consumer_key": "I40wL40inrt43Z71eeoir1662",
     "consumer_secret": "ZwLwMeTuWIjA9v1aRJeJUxrSoBYbNxzrteSxiPl59mdbU7mS0b",
     "access_token": "1841344074-R5b20nSAYEwYUxyfw87MWCGeHPwe5WREbPIyDjg"
     "access_token_secret": "p4lRvFlaI5vGCjSCqvF1jCeTwx3BAAScJWutsQy8a2ZOFP"
 }
-
+```
 - Save the file as `twitter_auth.json`.
