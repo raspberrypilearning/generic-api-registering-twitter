@@ -8,7 +8,7 @@ To use the Twitter API with any programming language, you'll need to complete a 
   
 ### Register for a Twitter account
 
-- **Note:** If you are underage, check with your parents to be sure that they are okay with you having a Twitter account. If you are under 13, then you will have to ask a parent or guardian to set up an account for you using their name and information.
+- **Note:** If you are under 13, then you will have to ask a parent or guardian to set up an account for you using their name and information.
 
 - Create a Twitter account at [twitter.com](https://twitter.com).
 
