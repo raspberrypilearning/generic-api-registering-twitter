@@ -42,7 +42,7 @@ Next you need to create a new Twitter application. This will allow you to authen
 
 ### Copy your credentials
 
-- The best way to store your credentials is to keep them on your computer in **JSON** format.
+- The best way to store your credentials is to keep them on your computer as a **JSON** file.
 
 *[JSON]: A lightweight format to exchange data between computers.
 
