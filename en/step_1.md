@@ -6,7 +6,7 @@ To use the Twitter API with any programming language, you'll need to complete a 
   - Create a Twitter application
   - Copy your credentials
 
-## Apply for a Twitter developer account
+### Apply for a Twitter developer account
 
 If you don't already have a Twitter account, you need to create one before you can apply for a developer account.
 
