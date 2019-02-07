@@ -2,43 +2,77 @@ To use the Twitter API with any programming language, you'll need to complete a 
 
 *[API]: Application Programming Interface
 
-  - Register a Twitter account (if you don't already have one to use)
+  - Apply for a Twitter developer account (if you don't already have one to use)
   - Create a Twitter application
   - Copy your credentials
-  
-### Register for a Twitter account
 
-- **Note:** If you are under 13, then you will have to ask a parent or guardian to set up an account for you using their name and information.
+### Apply for a Twitter developer account
 
-- Create a Twitter account at [twitter.com](https://twitter.com){:target="_blank"}.
+If you don't already have a Twitter account, you need to create one before you can apply for a developer account.
 
-    ![Create Twitter account](images/signup.png)
+**Note:** If you are under 13, then you will have to ask a parent or guardian to set up an account for you using their name and information.
 
-- You'll need to provide a phone number or email address to register an account, and only one account is allowed per email address.
+- Create a Twitter account at [twitter.com](https://twitter.com).
 
-- You might want to upload a photo and fill out the account's bio section, but make sure you are being safe and not uploading personally identifiable information.
+    ![Create Twitter account](images/create-twitter.png)
+
+If you want to, you can upload a photo and fill out the bio.
+
+- Apply for a developer account at [developer.twitter.com](https://developer.twitter.com).
+
+    ![screenshot of developer.twitter.com with apply button highlighted](images/apply_developer1.png)
+
+Complete the application process and submit your application.
+
+- Select the Twitter account you wish to apply with.
+
+    ![screenshot of user profile page](images/apply_developer2.png)
+
+- Indicate whether you are requesting access for an organisation or for yourself, and confirm your primary country.
+
+    ![screenshot of account details page](images/apply_developer3.png)
+
+- Provide details about your project and describe what you will be doing.
+
+    ![screenshot of use case details page](images/apply_developer4.png)
+
+- Read and agree to the **Terms of Service**.
+
+    ![screenshot of terms of service page](images/apply_developer5.png)
+
+- You will receive an email from Twitter asking you to **confirm your email address**; follow the link in the email to confirm.
+
+**Note**: once you confirm your email address, you need to wait for your application to be approved. This may take some time, and you can check the status of your application at [developer.twitter.com](https://developer.twitter.com).
 
 ### Create a Twitter application
 
-Next you need to create a new Twitter application. This will allow you to authenticate the program you are about to write.
+After your developer account has been approved, you need to register your application with Twitter to get keys. These keys allow you to access your Twitter account from your Python program using the Twitter API (Application Programming Interface).
 
-- Go to [apps.twitter.com](https://apps.twitter.com){:target="_blank"} and then click the **Create New App** button.
+- Go to [developer.twitter.com](https://developer.twitter.com), select **Apps** from the menu, and click on the **Create an app** button.
 
-	![Create New App](images/new-app.png)
-	
-- You'll need to fill in a few details about your app. Don't worry about the 'Website' field, you can place any URL here for now if you don't own your own domain. The 'Callback URL' can be left blank. Click on the **Create Application** button when you are done.
+    ![screenshot of the apps page with the apps link in the menu and the create app button highlighted](images/create_app1.png)
 
-	![App Details](images/app-details.png)
-	
-- You'll now have an app that you can use to access the API. Clicking on the **Keys and Access Tokens** tab will reveal your authentication details for Twitter.
+- Complete the application details form. You must enter an app name, description, website (this can be *https://www.raspberrypi.org/* if you don't have one), and some information about how the app will be used. You can leave the other fields blank. Then click **Create**.
 
-	![Authentication](images/auth.png)
-	
-- Next you'll need to generate your **access tokens** by clicking on the **Create my access token** button at the bottom of the screen.
+    ![screenshot of the Create an App page](images/create_app2.png)
 
-	![Authentication2](images/auth2.png)
-	
-- All these keys, tokens, and secrets need to be kept secure. If you accidentally share them with someone, then you can regenerate them to get new random strings of characters.
+- Review the Developer Terms and click on **Create**.
+
+    ![screen shot of developer terms popup](images/create_app3.png)
+
+- Click on the **Keys and tokens** tab to view your keys and access tokens.
+
+- Click on the **Create** button under **Access token & access token secret**.
+
+    ![screenshot of apps keys and tokens page with tab and create button selected](images/create_app4.png)
+
+- You should now see your **Consumer API key**, **Consumer API secret key**, **Access token**, and **Access token secret**. You need these four keys to connect to your Twitter account from your Python program.
+
+**Don't share these keys with anyone**, because they allow access to your Twitter account without your account password. If you share your code online, make sure not to include these keys. 
+
+If you ever accidentally share or publish the keys, you should **regenerate** them at [developer.twitter.com](https://developer.twitter.com).
+
+![Twitter keys](images/create_app5.png)
 
 ### Copy your credentials
 
