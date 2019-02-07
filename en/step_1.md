@@ -22,13 +22,7 @@ If you want to, you can upload a photo and fill out the bio.
 
     ![screenshot of developer.twitter.com with apply button highlighted](images/apply_developer1.png)
 
-- Complete the application process and submit your application.
-
---- collapse ---
-
----
-title: How to complete the developer application
----
+Complete the application process and submit your application.
 
 - Select the Twitter account you wish to apply with.
 
@@ -45,8 +39,6 @@ title: How to complete the developer application
 - Read and agree to the **Terms of Service**.
 
     ![screenshot of terms of service page](images/apply_developer5.png)
-
---- /collapse ---
 
 - You will receive an email from Twitter asking you to **confirm your email address**; follow the link in the email to confirm.
 
