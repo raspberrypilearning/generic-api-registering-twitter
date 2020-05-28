@@ -1,82 +1,82 @@
-To use the Twitter API with any programming language, you'll need to complete a few simple steps:
+Om de Twitter API met elke programmeertaal te gebruiken, moet je een paar eenvoudige stappen uitvoeren:
 
-  - Apply for a Twitter developer account (if you don't already have one to use)
-  - Create a Twitter application
-  - Copy your credentials
+  - Vraag een Twitter ontwikkelaarsaccount aan (als je er nog geen hebt om te gebruiken)
+  - Maak een Twitter applicatie
+  - Kopieer jouw inloggegevens
 
-### Apply for a Twitter developer account
+### Vraag een Twitter ontwikkelaarsaccount aan
 
-If you don't already have a Twitter account, you need to create one before you can apply for a developer account.
+Als je nog geen Twitter account hebt, moet je er een maken voordat je een ontwikkelaarsaccount kunt aanvragen.
 
-**Note:** If you are under 13, then you will have to ask a parent or guardian to set up an account for you using their name and information.
+**Opmerking:** Als je jonger bent dan 13, moet je een ouder of voogd vragen om een account voor je aan te maken met behulp van hun naam en informatie.
 
-- Create a Twitter account at [twitter.com](https://twitter.com).
+- Maak een Twitter account aan op [twitter.com](https://twitter.com).
 
-    ![Create Twitter account](images/create-twitter.png)
+    ![Maak een Twitter account aan](images/create-twitter.png)
 
-If you want to, you can upload a photo and fill out the bio.
+Als je wilt, kun je een foto uploaden en de bio invullen.
 
-- Apply for a developer account at [developer.twitter.com](https://developer.twitter.com).
+- Vraag een ontwikkelaarsaccount aan op [developer.twitter.com](https://developer.twitter.com).
 
-    ![screenshot of developer.twitter.com with apply button highlighted](images/apply_developer1.png)
+    ![screenshot van developer.twitter.com met de apply-knop gemarkeerd](images/apply_developer1.png)
 
-Complete the application process and submit your application.
+Voltooi het aanvraagproces en dien jouw aanvraag in.
 
-- Select the Twitter account you wish to apply with.
+- Selecteer het Twitter account waarmee je je wilt aanmelden.
 
-    ![screenshot of user profile page](images/apply_developer2.png)
+    ![screenshot van gebruikersprofielpagina](images/apply_developer2.png)
 
-- Indicate whether you are requesting access for an organisation or for yourself, and confirm your primary country.
+- Geef aan of je toegang aanvraagt voor een organisatie of voor jezelf en bevestig jouw primaire land.
 
-    ![screenshot of account details page](images/apply_developer3.png)
+    ![screenshot van de pagina met accountgegevens](images/apply_developer3.png)
 
-- Provide details about your project and describe what you will be doing.
+- Geef details over jouw project en beschrijf wat je gaat doen.
 
-    ![screenshot of use case details page](images/apply_developer4.png)
+    ![screenshot van use case details pagina](images/apply_developer4.png)
 
-- Read and agree to the **Terms of Service**.
+- Lees en ga akkoord met de **Terms of Service (Servicevoorwaarden)**.
 
-    ![screenshot of terms of service page](images/apply_developer5.png)
+    ![screenshot van de servicevoorwaardenpagina](images/apply_developer5.png)
 
-- You will receive an email from Twitter asking you to **confirm your email address**; follow the link in the email to confirm.
+- Je ontvangt een e-mail van Twitter waarin je wordt gevraagd om **je e-mailadres** te bevestigen; volg de link in de e-mail om te bevestigen.
 
-**Note**: once you confirm your email address, you need to wait for your application to be approved. This may take some time, and you can check the status of your application at [developer.twitter.com](https://developer.twitter.com).
+**Opmerking**: zodra je je e-mailadres hebt bevestigd, moet je wachten tot jouw aanvraag is goedgekeurd. Dit kan enige tijd duren en je kunt de status van jouw toepassing controleren op [developer.twitter.com](https://developer.twitter.com).
 
-### Create a Twitter application
+### Maak een Twitter applicatie
 
-After your developer account has been approved, you need to register your application with Twitter to get keys. These keys allow you to access your Twitter account from your Python program using the Twitter API (Application Programming Interface).
+Nadat jouw ontwikkelaarsaccount is goedgekeurd, moet je je toepassing registreren bij Twitter om sleutels te krijgen. Met deze sleutels heb je toegang tot jouw Twitter account vanuit jouw Python programma met behulp van de Twitter API (Application Programming Interface).
 
-- Go to [developer.twitter.com](https://developer.twitter.com), select **Apps** from the menu, and click on the **Create an app** button.
+- Ga naar [developer.twitter.com](https://developer.twitter.com), selecteer **Apps** in het menu en klik op de knop **Create an App (Een app maken)**.
 
-    ![screenshot of the apps page with the apps link in the menu and the create app button highlighted](images/create_app1.png)
+    ![screenshot van de apps pagina met de apps link in het menu en de create app-knop gemarkeerd](images/create_app1.png)
 
-- Complete the application details form. You must enter an app name, description, website (this can be *https://www.raspberrypi.org/* if you don't have one), and some information about how the app will be used. You can leave the other fields blank. Then click **Create**.
+- Vul het aanvraagformulier in. You must enter an app name, description, website (this can be *https://www.raspberrypi.org* if you don't have one), and some information about how the app will be used. Je kunt de andere velden leeg laten. Klik vervolgens op **Create (Maken)**.
 
-    ![screenshot of the Create an App page](images/create_app2.png)
+    ![screenshot van de pagina Een app maken](images/create_app2.png)
 
-- Review the Developer Terms and click on **Create**.
+- Lees de ontwikkelaarsvoorwaarden en klik op **Create**.
 
-    ![screen shot of developer terms popup](images/create_app3.png)
+    ![screenshot van ontwikkelaarsvoorwaarden popup](images/create_app3.png)
 
-- Click on the **Keys and tokens** tab to view your keys and access tokens.
+- Klik op het tabblad **Keys and tokens (Sleutels en tokens)** om je sleutels en toegangstokens te bekijken.
 
-- Click on the **Create** button under **Access token & access token secret**.
+- Klik op de knop **Create** onder **Access token & access token secret (Toegangstoken & toegangstoken-geheim)**.
 
-    ![screenshot of apps keys and tokens page with tab and create button selected](images/create_app4.png)
+    ![screenshot van apps sleutels- en tokenspagina met tabblad en create-knop geselecteerd](images/create_app4.png)
 
-- You should now see your **Consumer API key**, **Consumer API secret key**, **Access token**, and **Access token secret**. You need these four keys to connect to your Twitter account from your Python program.
+- Je zou nu jouw **Consumer API sleutel**, **Consumer API geheime sleutel**, **Toegangstoken**, en **Toegangstoken-geheim** moeten zien. Je hebt deze vier sleutels nodig om vanuit jouw Python programma verbinding te maken met jouw Twitter account.
 
-**Don't share these keys with anyone**, because they allow access to your Twitter account without your account password. If you share your code online, make sure not to include these keys.
+**Deel deze sleutels met niemand**, omdat deze toegang geven tot jouw Twitter account zonder jouw account wachtwoord. Als je jouw code online deelt, zorg er dan voor dat je deze sleutels niet opneemt.
 
-If you ever accidentally share or publish the keys, you should **regenerate** them at [developer.twitter.com](https://developer.twitter.com).
+Als je ooit per ongeluk de sleutels deelt of publiceert moet je ze **regenereren** op [developer.twitter.com](https://developer.twitter.com).
 
-![Twitter keys](images/create_app5.png)
+![Twitter sleutels](images/create_app5.png)
 
-### Copy your credentials
+### Kopieer jouw inloggegevens
 
-- The best way to store your credentials is to keep them on your computer as a **JSON** file.
+- De beste manier om jouw inloggegevens op te slaan, is deze op jouw computer te bewaren als een **JSON** bestand.
 
-- Open a text editor such as LeafPad, TextEdit, or Notepad. Create a new file and then add in your credentials in the following format.
+- Open een teksteditor zoals LeafPad, TextEdit of Kladblok. Maak een nieuw bestand en voeg vervolgens jouw gegevens toe met de volgende indeling.
 
 ```json
 {
@@ -86,4 +86,4 @@ If you ever accidentally share or publish the keys, you should **regenerate** th
     "access_token_secret": "p4lRvFlaI5vGCjSCqvF1jCeTwx3BAAScJWutsQy8a2ZOFP"
 }
 ```
-- Save the file as `twitter_auth.json`.
+- Sla het bestand op als `twitter_auth.json`.
