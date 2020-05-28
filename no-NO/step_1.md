@@ -50,7 +50,7 @@ After your developer account has been approved, you need to register your applic
 
     ![screenshot of the apps page with the apps link in the menu and the create app button highlighted](images/create_app1.png)
 
-- Complete the application details form. You must enter an app name, description, website (this can be *https://www.raspberrypi.org/* if you don't have one), and some information about how the app will be used. You can leave the other fields blank. Then click **Create**.
+- Complete the application details form. You must enter an app name, description, website (this can be *https://www.raspberrypi.org* if you don't have one), and some information about how the app will be used. You can leave the other fields blank. Then click **Create**.
 
     ![screenshot of the Create an App page](images/create_app2.png)
 
