@@ -1,7 +1,7 @@
 ---
-title: Register your app on Twitter
+title: Registra tu aplicación en Twitter
 hero_image: images/banner.png
-description: Register to use the Twitter API
+description: Regístrate para usar la API de Twitter
 original_url:
 theme: cc-prototype
 duration: 1
@@ -12,4 +12,4 @@ interests:
 technologies: "twitter"
 steps:
   - 
-    title: Register your app
+    title: Registra tu aplicación
