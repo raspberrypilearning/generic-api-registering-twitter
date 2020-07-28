@@ -12,31 +12,31 @@ Si aún no tienes una cuenta de Twitter, necesitas crear una antes de poder soli
 
 - Crea una cuenta de Twitter en [twitter.com](https://twitter.com).
 
-    ![Create Twitter account](images/create-twitter.png)
+    ![Crear cuenta de Twitter](images/create-twitter.png)
 
 Si lo deseas, puedes subir una foto y completar la biografía.
 
 - Solicita una cuenta de desarrollador en [developer.twitter.com](https://developer.twitter.com).
 
-    ![screenshot of developer.twitter.com with apply button highlighted](images/apply_developer1.png)
+    ![captura de pantalla de developer.twitter.com con el botón de aplicar resaltado](images/apply_developer1.png)
 
 Completa el proceso de aplicación y envía tu solicitud.
 
 - Selecciona la cuenta de Twitter con la que desees acceder.
 
-    ![screenshot of user profile page](images/apply_developer2.png)
+    ![captura de pantalla de la página de perfil del usuario](images/apply_developer2.png)
 
 - Indica si estás solicitando acceso para una organización o para ti mismo, y confirma tu país de origen.
 
-    ![screenshot of account details page](images/apply_developer3.png)
+    ![captura de pantalla de la página de detalles de la cuenta](images/apply_developer3.png)
 
 - Proporciona detalles sobre tu proyecto y describe lo que estarás haciendo.
 
-    ![screenshot of use case details page](images/apply_developer4.png)
+    ![captura de pantalla de la página de perfil del usuario](images/apply_developer4.png)
 
 - Lee y acepta los **Términos de Servicio**.
 
-    ![screenshot of terms of service page](images/apply_developer5.png)
+    ![captura de pantalla de la página de términos de servicio](images/apply_developer5.png)
 
 - Recibirás un correo electrónico de Twitter pidiéndote **confirmar tu dirección de correo electrónico**; sigue el enlace en el correo electrónico para confirmarla.
 
@@ -48,21 +48,21 @@ Después de que tu cuenta de desarrollador haya sido aprobada, necesitas registr
 
 - Ve a [developer.twitter.com](https://developer.twitter.com), selecciona **Apps** en el menú, y haz clic en el botón **Crear una aplicación**.
 
-    ![screenshot of the apps page with the apps link in the menu and the create app button highlighted](images/create_app1.png)
+    ![captura de pantalla de la página de aplicaciones con el enlace de aplicaciones en el menú y el botón de crear aplicación resaltado](images/create_app1.png)
 
 - Completa el formulario de información de la solicitud. Debes ingresar el nombre, la descripción y el sitio web de la aplicación (este puede ser *https://www.raspberrypi.org* si no tienes uno), y alguna información sobre cómo será utilizada la aplicación. Puedes dejar los otros campos en blanco. Luego haz clic en **Crear**.
 
-    ![screenshot of the Create an App page](images/create_app2.png)
+    ![captura de pantalla de la página Crear una Aplicación](images/create_app2.png)
 
 - Revisa los Términos del Desarrollador y haz clic en **Crear**.
 
-    ![screen shot of developer terms popup](images/create_app3.png)
+    ![captura de pantalla de la ventana emergente de términos del desarrollador](images/create_app3.png)
 
 - Haz clic en la pestaña **Keys and tokens** para ver las claves y los identificadores de acceso.
 
 - Haz clic en el botón **Crear** debajo de **Access token & access token secret**.
 
-    ![screenshot of apps keys and tokens page with tab and create button selected](images/create_app4.png)
+    ![captura de pantalla de la página de claves e identificadores de aplicaciones con pestaña y crear botón seleccionado](images/create_app4.png)
 
 - Ahora deberías ver tu **Consumer API key (Clave de consumidor API)**, **Consumer API secret key (Secreto de consumidor API)**, **Access token (Token de acceso)**, y **Access token secret (Token de acceso secreto)**. Necesitas estas cuatro claves para conectarte a tu cuenta de Twitter desde tu programa Python.
 
@@ -70,7 +70,7 @@ Después de que tu cuenta de desarrollador haya sido aprobada, necesitas registr
 
 Si alguna vez compartes o publicas accidentalmente las claves, debes **regenerarlas** en [develop.twitter.com](https://developer.twitter.com).
 
-![Twitter keys](images/create_app5.png)
+![Claves de Twitter](images/create_app5.png)
 
 ### Copia tus credenciales
 
