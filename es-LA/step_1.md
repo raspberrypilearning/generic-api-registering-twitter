@@ -1,82 +1,82 @@
-To use the Twitter API with any programming language, you'll need to complete a few simple steps:
+Para utilizar la API de Twitter con cualquier lenguaje de programación, necesitarás completar unos pocos pasos:
 
-  - Apply for a Twitter developer account (if you don't already have one to use)
-  - Create a Twitter application
-  - Copy your credentials
+  - Solicita una cuenta de desarrollador de Twitter (si aún no tienes una para usar)
+  - Crea una aplicación de Twitter
+  - Copia tus credenciales
 
-### Apply for a Twitter developer account
+### Solicita una cuenta de desarrollador de Twitter
 
-If you don't already have a Twitter account, you need to create one before you can apply for a developer account.
+Si aún no tienes una cuenta de Twitter, necesitas crear una antes de poder solicitar una cuenta de desarrollador.
 
-**Note:** If you are under 13, then you will have to ask a parent or guardian to set up an account for you using their name and information.
+**Nota:** Si eres menor de 13 años, entonces tendrás que pedirle a un padre o tutor que configure una cuenta para ti usando su nombre e información.
 
-- Create a Twitter account at [twitter.com](https://twitter.com).
+- Crea una cuenta de Twitter en [twitter.com](https://twitter.com).
 
     ![Create Twitter account](images/create-twitter.png)
 
-If you want to, you can upload a photo and fill out the bio.
+Si lo deseas, puedes subir una foto y completar la biografía.
 
-- Apply for a developer account at [developer.twitter.com](https://developer.twitter.com).
+- Solicita una cuenta de desarrollador en [developer.twitter.com](https://developer.twitter.com).
 
     ![screenshot of developer.twitter.com with apply button highlighted](images/apply_developer1.png)
 
-Complete the application process and submit your application.
+Completa el proceso de aplicación y envía tu solicitud.
 
-- Select the Twitter account you wish to apply with.
+- Selecciona la cuenta de Twitter con la que desees acceder.
 
     ![screenshot of user profile page](images/apply_developer2.png)
 
-- Indicate whether you are requesting access for an organisation or for yourself, and confirm your primary country.
+- Indica si estás solicitando acceso para una organización o para ti mismo, y confirma tu país de origen.
 
     ![screenshot of account details page](images/apply_developer3.png)
 
-- Provide details about your project and describe what you will be doing.
+- Proporciona detalles sobre tu proyecto y describe lo que estarás haciendo.
 
     ![screenshot of use case details page](images/apply_developer4.png)
 
-- Read and agree to the **Terms of Service**.
+- Lee y acepta los **Términos de Servicio**.
 
     ![screenshot of terms of service page](images/apply_developer5.png)
 
-- You will receive an email from Twitter asking you to **confirm your email address**; follow the link in the email to confirm.
+- Recibirás un correo electrónico de Twitter pidiéndote **confirmar tu dirección de correo electrónico**; sigue el enlace en el correo electrónico para confirmarla.
 
-**Note**: once you confirm your email address, you need to wait for your application to be approved. This may take some time, and you can check the status of your application at [developer.twitter.com](https://developer.twitter.com).
+**Nota**: una vez que confirmes tu dirección de correo electrónico, tienes que esperar a que se apruebe tu solicitud. Esto puede tomar algo de tiempo, y puedes comprobar el estado de tu aplicación en [developer.twitter.com](https://developer.twitter.com).
 
-### Create a Twitter application
+### Crea una aplicación de Twitter
 
-After your developer account has been approved, you need to register your application with Twitter to get keys. These keys allow you to access your Twitter account from your Python program using the Twitter API (Application Programming Interface).
+Después de que tu cuenta de desarrollador haya sido aprobada, necesitas registrar tu aplicación con Twitter para obtener claves. Estas claves te permiten acceder a tu cuenta de Twitter desde tu programa Python usando la API (Aplicación de Interfaz de Programación) de Twitter.
 
-- Go to [developer.twitter.com](https://developer.twitter.com), select **Apps** from the menu, and click on the **Create an app** button.
+- Ve a [developer.twitter.com](https://developer.twitter.com), selecciona **Apps** en el menú, y haz clic en el botón **Crear una aplicación**.
 
     ![screenshot of the apps page with the apps link in the menu and the create app button highlighted](images/create_app1.png)
 
-- Complete the application details form. You must enter an app name, description, website (this can be *https://www.raspberrypi.org* if you don't have one), and some information about how the app will be used. You can leave the other fields blank. Then click **Create**.
+- Completa el formulario de información de la solicitud. Debes ingresar el nombre, la descripción y el sitio web de la aplicación (este puede ser *https://www.raspberrypi.org* si no tienes uno), y alguna información sobre cómo será utilizada la aplicación. Puedes dejar los otros campos en blanco. Luego haz clic en **Crear**.
 
     ![screenshot of the Create an App page](images/create_app2.png)
 
-- Review the Developer Terms and click on **Create**.
+- Revisa los Términos del Desarrollador y haz clic en **Crear**.
 
     ![screen shot of developer terms popup](images/create_app3.png)
 
-- Click on the **Keys and tokens** tab to view your keys and access tokens.
+- Haz clic en la pestaña **Keys and tokens** para ver las claves y los identificadores de acceso.
 
-- Click on the **Create** button under **Access token & access token secret**.
+- Haz clic en el botón **Crear** debajo de **Access token & access token secret**.
 
     ![screenshot of apps keys and tokens page with tab and create button selected](images/create_app4.png)
 
-- You should now see your **Consumer API key**, **Consumer API secret key**, **Access token**, and **Access token secret**. You need these four keys to connect to your Twitter account from your Python program.
+- Ahora deberías ver tu **Consumer API key (Clave de consumidor API)**, **Consumer API secret key (Secreto de consumidor API)**, **Access token (Token de acceso)**, y **Access token secret (Token de acceso secreto)**. Necesitas estas cuatro claves para conectarte a tu cuenta de Twitter desde tu programa Python.
 
-**Don't share these keys with anyone**, because they allow access to your Twitter account without your account password. If you share your code online, make sure not to include these keys.
+**No compartas estas claves con nadie**, porque permiten el acceso a tu cuenta de Twitter sin la contraseña de tu cuenta. Si compartes tu código en línea, asegúrate de no incluir estas claves.
 
-If you ever accidentally share or publish the keys, you should **regenerate** them at [developer.twitter.com](https://developer.twitter.com).
+Si alguna vez compartes o publicas accidentalmente las claves, debes **regenerarlas** en [develop.twitter.com](https://developer.twitter.com).
 
 ![Twitter keys](images/create_app5.png)
 
-### Copy your credentials
+### Copia tus credenciales
 
-- The best way to store your credentials is to keep them on your computer as a **JSON** file.
+- La mejor manera de almacenar tus credenciales es mantenerlas en tu computadora como un archivo **JSON**.
 
-- Open a text editor such as LeafPad, TextEdit, or Notepad. Create a new file and then add in your credentials in the following format.
+- Abre un editor de texto como LeafPad, TextEdit, o Notepad. Cree un nuevo archivo y luego añade tus credenciales en el siguiente formato.
 
 ```json
 {
@@ -86,4 +86,4 @@ If you ever accidentally share or publish the keys, you should **regenerate** th
     "access_token_secret": "p4lRvFlaI5vGCjSCqvF1jCeTwx3BAAScJWutsQy8a2ZOFP"
 }
 ```
-- Save the file as `twitter_auth.json`.
+- Guardar el archivo como `twitter_auth.json`.
